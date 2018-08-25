@@ -1,0 +1,12 @@
+# Turn on URL rewriting engine
+RewriteEngine On
+
+# Disable rewriting for existing files or directories
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+#this line is needed if the site is hosted on a remote webserver
+#RewriteBase /~i211/kungfupanda_mvc/
+
+# Redirect all other requests to index.php
+RewriteRule ^.*$ index.php [PT,L]

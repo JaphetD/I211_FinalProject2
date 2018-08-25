@@ -1,0 +1,11 @@
+{
+    "name": "vendor/i211_finalproject",
+    "description": "Description of project i211_finalproject.",
+    "authors": [
+        {
+            "name": "Melanie",
+            "email": "your@email.here"
+        }
+    ],
+    "require": {}
+}
